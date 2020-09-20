@@ -1,0 +1,45 @@
+#pricing{
+    padding: 50px 110px 30px 110px;
+}.top{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}.left{
+    margin-left: 0;
+    
+    text-align: center;
+}.card{
+    text-align: center;
+}
+    .card-header{
+        height: 50px;
+    }.headermiddle{
+        height: 60px;
+    }.height{
+        margin-top: -20px;
+    }.header,.bottom{
+        margin-left: 0;
+    
+    }.price{
+        font-size: 4.5rem;
+    }
+.color{
+    background-color: blue;
+    color: #ffff;
+}@media (max-device-width:500px){
+.card-body,.col-lg-4{
+    
+    padding: 0 0 0 0;
+}.row{
+    margin-left: -79px;
+    margin-right: -79px;
+}.top{
+    margin-top: 50px;
+}.cardfirst{
+    margin-top: -20px;
+}.left{
+    margin-top: 40px;
+}.bottom{
+    margin-top: 10px;
+}
+}
