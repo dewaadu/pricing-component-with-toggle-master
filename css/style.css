@@ -1,10 +1,67 @@
+body{
+background-color: hsl(240, 78%, 98%);
+    background-image: url("../images/bg-top.svg");
+   width: 100%;
+    }
+
 #pricing{
     padding: 50px 110px 30px 110px;
 }.top{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 0;
-}.left{
+}.switcher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.switch-text{
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--lightGrayishBlueCard);
+}
+
+.switcher-btn{
+    position: relative;
+    margin: 0 25px;
+    width: 50px;
+    height: 25px;
+    border-radius: 30px;
+    background-color:blue;
+    transition: 0.5 ease;
+}
+
+.ball{
+    position: absolute;
+    transform: translate(3px, 2.4px);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: 0.5s ease;
+}
+
+.switcher-btn.active{
+    background:hsl(236, 72%, 79%);
+}
+
+.ball.active{
+    transform: translate(27px, 2.4px);
+}
+
+.hidden{
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+}
+
+.left{
     margin-left: 0;
     
     text-align: center;
@@ -21,7 +78,7 @@
         margin-left: 0;
     
     }.price{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 .color{
     background-color: blue;
